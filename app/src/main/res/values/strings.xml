@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Decode</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search">Search</string>
+    <string name="name">\"Name: \"</string>
+    <string name="web_page">\"WEB PAGE: \"</string>
+    <string name="author_name">Author name:</string>
+    <string name="details_url">Details URL:</string>
+    <string name="repo_name">Repo name:</string>
+    <string name="date_created">Date created:</string>
+    <string name="date_updated">Date updated:</string>
+    <string name="forks">Forks:</string>
+    <string name="watchers">Watchers:</string>
+    <string name="issues">Issues:</string>
+    <string name="language">Language:</string>
+    <string name="description">Description:</string>
+    <string name="url">URL:</string>
+</resources>

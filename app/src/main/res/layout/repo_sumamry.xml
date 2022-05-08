@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    card_view:cardCornerRadius="15dp"
+    card_view:cardElevation="2dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp"
+    android:elevation="@dimen/elevation">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ivAuthor"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:scaleType="fitXY"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding"
+                android:textSize="@dimen/textSize"
+                android:textColor="@color/black"
+                tools:text="Ime repozitorija"/>
+            <TextView
+                android:id="@+id/tvAuthor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding"
+                android:textSize="@dimen/textSize"
+                android:textColor="@color/black"
+                tools:text="Ime autora"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/padding_right"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tvForks"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    tools:text="1231"/>
+                <ImageView
+                    android:layout_width="@dimen/imHeight"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_fork_black"
+                    android:layout_marginRight="@dimen/margin_right"
+                    android:layout_height="@dimen/imHeight"/>
+                <TextView
+                    android:id="@+id/tvIssues"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    tools:text="12312"/>
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_issues_black"
+                    android:layout_marginRight="20dp"
+                    android:layout_height="20dp"/>
+                <TextView
+                    android:id="@+id/tvWatchers"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    tools:text="1231241"/>
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_watchers_black"
+                    android:layout_height="20dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

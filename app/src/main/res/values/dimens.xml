@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding">10dp</dimen>
+    <dimen name="elevation">10dp</dimen>
+    <dimen name="textSize">14sp</dimen>
+    <dimen name="padding_right">10dp</dimen>
+    <dimen name="margin_right">20dp</dimen>
+    <dimen name="imHeight">20dp</dimen>
+    <dimen name="author_text_size">18sp</dimen>
+    <dimen name="margin_bottom">10dp</dimen>
+    <dimen name="margin_top">10dp</dimen>
+    <dimen name="padding_details">15dp</dimen>
+    <dimen name="right_margin_details">5dp</dimen>
+    <dimen name="btmMargin">15dp</dimen>
+    <dimen name="imWidth">200dp</dimen>
+    <dimen name="imHeightAuth">200dp</dimen>
+</resources>

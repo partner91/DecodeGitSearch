@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="@drawable/ic_search_black"
+        android:title="Sort by:"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView"/>
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/shortOptions"
+        android:icon="@drawable/ic_sort_black"
+        app:showAsAction="ifRoom">
+        <item android:id="@+id/sortNone"
+            android:checked="true"
+            android:title="None"/>
+        <item android:id="@+id/sortForks"
+            android:title="Forks"/>
+        <item android:id="@+id/sortIssues"
+            android:title="Issues"/>
+        <item android:id="@+id/sortWatchers"
+            android:title="Watchers"/>
+    </group>
+
+
+
+</menu>
